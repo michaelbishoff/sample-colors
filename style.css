@@ -17,6 +17,10 @@ li {
   text-align:center; 
 }
 
+.big {
+  height: 30em;
+}
+
 #grad1 {
     background: -webkit-linear-gradient(0deg, #fce68b, #fc8b88); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(0deg, #fce68b, #fc8b88); /* For Opera 11.1 to 12.0 */
@@ -64,8 +68,4 @@ li {
     background: -o-linear-gradient(180deg, #f5d651, #f85b56); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(180deg, #f5d651, #f85b56); /* For Firefox 3.6 to 15 */
     background: linear-gradient(180deg, #f5d651, #f85b56); /* Standard syntax (must be last) */
-}
-
-.big {
-  height: 30em;
 }

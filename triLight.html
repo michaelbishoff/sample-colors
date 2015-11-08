@@ -3,7 +3,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
 </head>
+
 <body>
   <nav>
     <div>
@@ -22,13 +24,30 @@
     </div>
   </nav>
   
-  <h3>Linear Gradients - Using Different Angles</h3>
-  <div id="grad1" class="sample">0deg</div><br>
-  <div id="grad2" class="sample">90deg</div><br>
-  <div id="grad3" class="sample">180deg</div><br>
-  <div id="grad4" class="sample">-90deg</div><br>
-  <div id="grad5" class="sample">45deg</div><br>
-  <div id="dark-grad5" class="sample">Darker 45deg</div>
+  <script>
+    function init() {
+      // Removes the old one if it's there
+      var canvas = document.getElementById('canvas');
+      if (canvas != undefined) {
+        canvas.remove();
+      }
+      
+      var pattern = Trianglify({
+        width: window.innerWidth,
+        height: window.innerHeight,
+        x_colors: ['#fce68b', '#fc8b88'],
+        y_colors: ['#fc8b88', '#fce68b']
+      });
+      
+      canvas = pattern.canvas();
+      canvas.setAttribute("id", "canvas");
+      
+      document.body.appendChild(canvas);
+    }
+    
+    window.onresize = init;
+    init();
+  </script>
   
 </body>
 </html>
