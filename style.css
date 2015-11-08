@@ -1,0 +1,71 @@
+html, body {
+  width: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  padding-right: 1em;
+}
+
+.sample {
+  height: 100px;
+  color:white;
+  text-align:center; 
+}
+
+#grad1 {
+    background: -webkit-linear-gradient(0deg, #fce68b, #fc8b88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, #fce68b, #fc8b88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, #fce68b, #fc8b88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, #fce68b, #fc8b88); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+    background: -webkit-linear-gradient(90deg, #fce68b, #fc8b88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #fce68b, #fc8b88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #fce68b, #fc8b88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #fce68b, #fc8b88); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+    background: -webkit-linear-gradient(180deg, #fce68b, #fc8b88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #fce68b, #fc8b88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #fce68b, #fc8b88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #fce68b, #fc8b88); /* Standard syntax (must be last) */
+}
+
+#grad4 {
+    background: -webkit-linear-gradient(-90deg, #fce68b, #fc8b88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #fce68b, #fc8b88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #fce68b, #fc8b88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #fce68b, #fc8b88); /* Standard syntax (must be last) */
+}
+
+#grad5 {
+    background: -webkit-linear-gradient(45deg, #fce68b, #fc8b88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, #fce68b, #fc8b88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, #fce68b, #fc8b88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, #fce68b, #fc8b88); /* Standard syntax (must be last) */
+}
+
+#dark-grad5 {
+    background: -webkit-linear-gradient(45deg, #f5d651, #f85b56); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, #f5d651, #f85b56); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, #f5d651, #f85b56); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, #f5d651, #f85b56); /* Standard syntax (must be last) */
+}
+
+#dark-grad3 {
+    background: -webkit-linear-gradient(180deg, #f5d651, #f85b56); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #f5d651, #f85b56); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #f5d651, #f85b56); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #f5d651, #f85b56); /* Standard syntax (must be last) */
+}
+
+.big {
+  height: 30em;
+}
